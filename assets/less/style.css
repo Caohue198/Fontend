@@ -451,6 +451,7 @@ footer .copyright p {
   display: flex;
   flex-direction: column;
   visibility: hidden;
+  cursor: pointer;
 }
 .section .list-product .product__icon a {
   padding: 0.5em;
@@ -461,12 +462,13 @@ footer .copyright p {
 }
 .section .list-product .product__icon a i {
   font-size: 14px;
+  
 }
 .section .list-product .product__icon a:hover {
   background: #dd2f31;
   color: #ffffff;
-  border: none;
-  border-radius: 0.2em 0em;
+  border: 1px solid #dd2f31;
+
 }
 .section .list-product .product:hover > .product__icon {
   visibility: visible;
@@ -687,9 +689,8 @@ footer .copyright p {
   .container .header .icon__menu {
     display: block;
     font-size: 14px;
-    margin-top: 2%;
+    margin-top: 3.5%;
     padding: 0.5em;
-    margin-left: 25%;
     color: #ffffff;
   }
   .container .header__menu {
@@ -698,7 +699,7 @@ footer .copyright p {
     z-index: 5;
     left: 0;
     top: 0;
-    margin-top: 13%;
+    margin-top: 15%;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -752,9 +753,11 @@ footer .copyright p {
   }
 }
 @media all and (min-width: 320px) and (max-width: 1476px) {
+  .container {
+    padding: 0px 15px;
+  }
   .container .header {
-    width: 80%;
-    margin: 0px auto;
+    width: 100%;
   }
   .container .header__logo {
     width: 30%;
@@ -766,7 +769,7 @@ footer .copyright p {
     width: auto;
   }
   .container .header__icon {
-    margin-top: -0.4em;
+    margin-left: 32.5%;
   }
   .container .header__icon__search {
     margin-left: 0em;
@@ -785,27 +788,32 @@ footer .copyright p {
     margin-top: 0em;
   }
   .banner__text {
-    width: 50%;
-    left: 10%;
+    width: 55%;
+    left: 15px;
     top: 0%;
-    margin-top: 25%;
+    margin-top: 22%;
   }
   .banner__text__logo {
-    font-size: 16px;
+    font-size: 18px;
   }
   .banner__text__slogan {
-    font-size: 14px;
+    font-size: 14px;   
+    margin-bottom: 0em;
   }
   .banner__text p {
-    display: none;
+    font-size: 7px;
+    margin: 0em 0em 0.5em;
   }
   .banner__text a {
     font-size: 10px;
     padding: 0.3em;
     margin-left: 0;
   }
+  .row {
+    padding: 0px 15px;
+  }
   .section {
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     margin-top: -1em;
   }
@@ -1029,7 +1037,7 @@ footer .copyright p {
     margin-top: 0em;
   }
   .blog {
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     margin-top: 1.5em;
   }
@@ -1044,7 +1052,7 @@ footer .copyright p {
     width: auto;
   }
   .blog__img__unit strong {
-    font-size: 7px;
+    font-size: 8px;
     margin-top: 1em;
     margin-left: 0em;
   }
@@ -1053,13 +1061,11 @@ footer .copyright p {
     margin-left: 0;
   }
   .line {
-    width: 80%;
-    margin: 0px auto;
+    width: 100%;
     margin-top: 1em;
   }
   .list-brand {
-    width: 80%;
-    margin: 0px auto;
+    width: 100%;
   }
   .list-brand .brand {
     margin-right: 0;
@@ -1079,7 +1085,7 @@ footer .copyright p {
   }
   footer .social__title {
     font-size: 7px;
-    width: 80%;
+    width: 100%;
   }
   footer .social__icon {
     margin-top: 0;
@@ -1089,36 +1095,35 @@ footer .copyright p {
     margin: 0;
   }
   footer .line-footer {
-    width: 80%;
-    margin: 0px auto;
+    width: 100%;
     margin-top: 1em;
   }
   footer .about {
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     margin-top: 1em;
+    flex-wrap: wrap;
   }
   footer .about .contact {
-    width: 45%;
-    margin-right: 0.2em;
+    width: 100%;
   }
   footer .about .account {
-    width: 15%;
+    width: 33.3%;
   }
   footer .about .information {
-    width: 20%;
+    width: 33.3%;
     margin-left: 0em;
   }
   footer .about .link {
-    width: 20%;
+    width: 33.3%;
     margin-left: 0em;
   }
   footer .about span {
-    font-size: 7px;
+    font-size: 10px;
     line-height: 0;
   }
   footer .about ul li a {
-    font-size: 6px;
+    font-size: 8px;
     line-height: 0;
   }
   footer .about ul li a i {
@@ -1128,26 +1133,28 @@ footer .copyright p {
     margin-top: 0;
   }
   footer .copyright p {
-    font-size: 6px;
+    font-size: 8px;
     padding: 0.5em;
   }
 }
 @media all and (min-width: 568px) and (max-width: 1476px) {
   .container .header .icon__menu {
-    margin-left: 45%;
     margin-top: 3%;
   }
   .container .header__menu ul li a {
     font-size: 14px;
   }
   .container .header__icon {
-    margin-top: 0.6%;
+    margin-top: 1%;
   }
   .banner__text__logo {
     font-size: 30px;
   }
   .banner__text__slogan {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .banner__text p {
+    font-size: 9px;
   }
   .banner a {
     font-size: 12px;
@@ -1222,20 +1229,27 @@ footer .copyright p {
   footer .social__icon {
     font-size: 9px;
   }
+  footer .about {
+    margin-top: 2em;
+  }
   footer .about span {
-    font-size: 10px;
+    font-size: 12px;
   }
   footer .about .contact {
-    width: 25%;
+    width: 35%;
+    margin-right: 0em;
   }
   footer .about .account {
-    width: 25%;
+    width: 20%;
   }
   footer .about .information {
     width: 25%;
   }
   footer .about .link {
-    width: 25%;
+    width: 20%;
+  }
+  footer .about ul li a {
+    font-size: 10px;
   }
   footer .copyright {
     font-size: 14px;
@@ -1254,16 +1268,17 @@ footer .copyright p {
   }
   .container .header__menu ul {
     padding: 0;
-    margin-left: 1em;
+    margin-left: 2em;
   }
   .container .header__menu ul li {
     margin-right: 0.5em;
   }
   .container .header__menu ul li a {
     padding: 0em 0.25em;
+    font-size: 16px;
   }
   .container .header__icon {
-    margin-left: 0%;
+    margin-left: 6.9%;
   }
   .banner__text {
     margin-top: 20%;
@@ -1291,7 +1306,7 @@ footer .copyright p {
   }
   .section .category-product .category__icon p {
     display: block;
-    font-size: 8px;
+    font-size: 10px;
   }
   .section .category-product .category__icon:nth-child(4) img {
     margin-top: 2em;
@@ -1375,6 +1390,14 @@ footer .copyright p {
   }
 }
 @media all and (min-width: 1024px) and (max-width: 1476px) {
+  .row{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .container .header{
+    width: 90%;
+    margin: 0px auto;
+  }
   .container .header__menu {
     margin-left: 3%;
     margin-top: 1%;
@@ -1387,19 +1410,32 @@ footer .copyright p {
     margin-right: 1.65em;
   }
   .banner {
-    margin-top: -6.7%;
+    margin-top: -7.8%;
   }
   .banner__text {
     margin-top: 14%;
+    margin-left: 3em;
+  }
+  .banner__text__logo {
+    font-size: 60px;
+  }
+  .banner__text__slogan {
+    font-size: 40px;
+  }
+  .banner__text p {
+    font-size: 14px;
+  }
+  .banner__text a {
+    font-size: 14px;
   }
   .section .category-product .category__icon span {
     font-size: 14px;
   }
   .section .category-product .category__icon p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .section .tab__title a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .section .tab hr {
     margin-top: 1em;
@@ -1437,11 +1473,11 @@ footer .copyright p {
     margin-left: 1%;
   }
   .section .list-product .product__title {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0em 2.5em;
   }
   .section .list-product .product__price {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0em 2.5em 3em;
   }
   .section .list-product .product__icon a {
@@ -1462,16 +1498,16 @@ footer .copyright p {
     font-size: 12px;
   }
   .support-service .support__text a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .client strong {
     font-size: 30px;
   }
   .client span {
-    font-size: 16px;
+    font-size: 18px;
   }
   .client p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .client__avatar img {
     width: 5%;
@@ -1485,13 +1521,36 @@ footer .copyright p {
   .blog__title {
     font-size: 30px;
   }
+  .blog__img__unit strong {
+    font-size: 14px;
+  }
+  footer .social__title {
+    font-size: 14px;
+  }
+  footer .about span {
+    font-size: 14px;
+    line-height: 2.7em;
+  }
   footer .about ul li a {
     font-size: 10px;
+    line-height: 2.9em;
   }
+
 }
 @media all and (min-width: 1330px) and (max-width: 1476px) {
+  .row{
+    width: 80%;
+    margin: 0px auto;
+  }
+  .container .header{
+    width: 80%;
+    margin: 0px auto;
+  }
   .container .header__menu {
     margin-top: 0;
+  }
+  .container .header__menu ul {
+    margin-left: 0;
   }
   .container .header__menu ul li {
     margin-right: 1.4em;
@@ -1500,7 +1559,7 @@ footer .copyright p {
     padding: 0.5em 1em;
   }
   .container .header__icon {
-    margin-left: 8.8%;
+    margin-left: 2.5%;
     margin-top: 0.7%;
   }
   .container .header__icon a {
@@ -1510,28 +1569,24 @@ footer .copyright p {
     font-size: 12px;
   }
   .banner {
-    margin-top: -5em;
+    margin-top: -5.1em;
   }
-  .banner__text__logo {
-    font-size: 50px;
+  .banner__text {
+    margin-left: 7.8em;
+    width: 50%;
   }
-  .banner__text__slogan {
-    font-size: 40px;
-  }
+  
   .banner__text p {
-    font-size: 18px;
-  }
-  .banner__text a {
-    font-size: 18px;
+    margin-bottom: 2em;
   }
   .section {
     margin-top: -3.3em;
   }
   .section .category-product .category__icon span {
-    font-size: 16px;
+    font-size: 18px;
   }
   .section .category-product .category__icon p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .section .tab__title a {
     font-size: 18px;
@@ -1582,12 +1637,11 @@ footer .copyright p {
   }
   footer .about ul li a {
     font-size: 14px;
-    line-height: 2em;
+    line-height: 2.9em;
   }
 }
 @media all and (min-width: 1471px) and (max-width: 1600px) {
   .banner__text {
-    left: 12%;
-    top: 25%;
+    margin-left: 8.7em;
   }
 }
