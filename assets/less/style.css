@@ -974,7 +974,7 @@ footer .copyright p {
     margin: 0em 1.5em 1em;
   }
   .section .list-product .product__icon a {
-    padding: 0.05em 0.1em;
+    padding: 0.2em 0.3em;
     margin: 0.1em 0.3em 0.05em;
   }
   .section .list-product .product__icon a i {
@@ -1187,7 +1187,7 @@ footer .copyright p {
     margin: 0em 4em 1em;
   }
   .section .list-product .product__icon a {
-    padding: 0.3em;
+    padding: 0.5em;
     margin: 0.7em 0.7em 0em;
   }
   .section .list-product .product__icon a i {
@@ -1331,11 +1331,11 @@ footer .copyright p {
     font-size: 14px;
   }
   .section .list-product .product__icon a {
-    padding: 0;
+    padding: 0.3em;
     margin: 1.2em 2em 0.1em;
   }
   .section .list-product .product__icon a i {
-    padding: 0.4em;
+    padding: 0.2em;
   }
   .support-service .support__text span {
     font-size: 20px;
@@ -1479,11 +1479,10 @@ footer .copyright p {
     margin: 0em 2.5em 3em;
   }
   .section .list-product .product__icon a {
-    padding: 0;
+    padding: 0.3em;
     margin: 0.5em 0.5em 0em;
   }
   .section .list-product .product__icon a i {
-    padding: 0.7em;
     font-size: 10px;
   }
   .space-white {
