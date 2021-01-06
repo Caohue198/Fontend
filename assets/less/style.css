@@ -836,7 +836,7 @@ footer .copyright p {
     margin-top: 0.5em;
   }
   .section .category-product .category__icon span {
-    font-size: 7px;
+    font-size: 8px;
     display: block;
   }
   .section .category-product .category__icon p {
@@ -846,7 +846,7 @@ footer .copyright p {
     margin-top: 3em;
   }
   .section .tab__title a {
-    font-size: 9px;
+    font-size: 10px;
   }
   .section .tab hr {
     margin-top: 0.5em;
@@ -966,11 +966,11 @@ footer .copyright p {
     width: auto;
   }
   .section .list-product .product__title {
-    font-size: 8px;
+    font-size: 10px;
     margin: 0em 1.5em;
   }
   .section .list-product .product__price {
-    font-size: 8px;
+    font-size: 10px;
     margin: 0em 1.5em 1em;
   }
   .section .list-product .product__icon a {
@@ -989,17 +989,17 @@ footer .copyright p {
     width: auto;
   }
   .support-service .support__text span {
-    font-size: 10px;
-    margin-left: 20%;
+    font-size: 12px;
+    margin-left: 15%;
     margin-top: 10%;
   }
   .support-service .support__text p {
     display: none;
   }
   .support-service .support__text a {
-    font-size: 8px;
+    font-size: 10px;
     padding: 0.2em 0em;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 1em;
   }
   .support-service .support__imgpeo {
@@ -1012,7 +1012,7 @@ footer .copyright p {
     margin-left: 5%;
   }
   .client strong {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 2em;
     margin-bottom: 0.5em;
   }
@@ -1020,15 +1020,15 @@ footer .copyright p {
     width: 10%;
   }
   .client__content {
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
   }
   .client__name {
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 0em;
   }
   .client__feel {
-    font-size: 8px;
+    font-size: 14px;
   }
   .client .icon {
     font-size: 6px;
@@ -1040,7 +1040,7 @@ footer .copyright p {
     margin-top: 1.5em;
   }
   .blog__title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .blog__img__unit {
     margin-right: 0.3em;
