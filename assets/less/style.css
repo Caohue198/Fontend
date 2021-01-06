@@ -957,9 +957,7 @@ footer .copyright p {
     margin-right: 0em;
     margin-bottom: 1.5em;
   }
-  .section .list-product .product:nth-child(1) {
-    margin-bottom: 1em;
-  }
+  
   .section .list-product .product:nth-child(2n) {
     margin-left: 10%;
   }
@@ -1084,7 +1082,7 @@ footer .copyright p {
     width: 50%;
   }
   footer .social__title {
-    font-size: 7px;
+    font-size: 8px;
     width: 100%;
   }
   footer .social__icon {
