@@ -1105,6 +1105,7 @@ footer .copyright p {
   footer .line-footer {
     width: 100%;
     margin-top: 1em;
+    padding: 0;
   }
   footer .about {
     width: 100%;
