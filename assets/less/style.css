@@ -33,7 +33,8 @@ li {
   opacity: 0.8;
 }
 .container .header {
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
   display: flex;
   overflow: hidden;
@@ -152,7 +153,7 @@ footer .social {
   align-items: center;
 }
 footer .social__img {
-  margin-top: 6.4em;
+  margin-top: 6.25em;
   margin-bottom: 0.9em;
 }
 footer .social__title {
@@ -178,12 +179,14 @@ footer .social__icon a i {
 }
 footer .line-footer {
   color: #ccc;
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
   margin-top: 3.2em;
 }
 footer .about {
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
   display: flex;
   margin-top: 3.9em;
@@ -244,10 +247,11 @@ footer .copyright p {
   background: #f7f7f7;
 }
 .section {
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
   position: relative;
-  margin-top: -5.1em;
+  margin-top: -5.25em;
 }
 .section .category-product {
   display: flex;
@@ -290,7 +294,7 @@ footer .copyright p {
   font-weight: 700;
 }
 .section .category-product .category__icon p {
-  margin: 1.25em 3em;
+  margin: 1.1em 3em;
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.71;
@@ -429,7 +433,7 @@ footer .copyright p {
   margin-right: 0;
 }
 .section .list-product .product__title {
-  margin: 1.45em 1em 0.3em 2.1em;
+  margin: 1.3em 1em 0.3em 2.1em;
   font-family: 'Poppins';
   font-size: 14px;
   line-height: normal;
@@ -494,7 +498,7 @@ footer .copyright p {
 }
 .support-service .support__text span {
   display: block;
-  margin-left: 5.1em;
+  margin-left: 5.15em;
   margin-top: 2.4em;
   font-family: 'Poppins';
   font-size: 36px;
@@ -505,7 +509,7 @@ footer .copyright p {
 .support-service .support__text p {
   width: 33.7em;
   margin-top: 1.35em;
-  margin-left: 13.2em;
+  margin-left: 13.3em;
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 24px;
@@ -622,9 +626,10 @@ footer .copyright p {
   }
 }
 .blog {
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
-  margin-top: 11.6em;
+  margin-top: 11.4em;
   margin-bottom: 1.3em;
 }
 .blog a {
@@ -651,7 +656,7 @@ footer .copyright p {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 1.5em;
+  margin-top: 1.45em;
   margin-left: 0.15em;
   font-family: 'Poppins';
   font-size: 14px;
@@ -667,7 +672,8 @@ footer .copyright p {
 }
 .line {
   color: #ccc;
-  width: 73.125em;
+  width: 1170px;
+  padding: 0px 15px;
   margin: 0px auto;
   margin-top: 5.2em;
 }
@@ -752,12 +758,13 @@ footer .copyright p {
     }
   }
 }
-@media all and (min-width: 320px) and (max-width: 1476px) {
+@media all and (min-width: 320px) and (max-width: 1439px) {
   .container {
     padding: 0px 15px;
   }
   .container .header {
     width: 100%;
+    padding: 0px;
   }
   .container .header__logo {
     width: 30%;
@@ -769,7 +776,7 @@ footer .copyright p {
     width: auto;
   }
   .container .header__icon {
-    margin-left: 32.5%;
+    margin-left: 37%;
   }
   .container .header__icon__search {
     margin-left: 0em;
@@ -816,6 +823,7 @@ footer .copyright p {
     width: 100%;
     margin: 0px auto;
     margin-top: -1em;
+    padding: 0px;
   }
   .section .category-product .category__img img {
     max-width: 100%;
@@ -1038,6 +1046,7 @@ footer .copyright p {
     width: 100%;
     margin: 0px auto;
     margin-top: 1.5em;
+    padding: 0px;
   }
   .blog__title {
     font-size: 20px;
@@ -1061,6 +1070,7 @@ footer .copyright p {
   .line {
     width: 100%;
     margin-top: 1em;
+    padding: 0px;
   }
   .list-brand {
     width: 100%;
@@ -1101,6 +1111,7 @@ footer .copyright p {
     margin: 0px auto;
     margin-top: 1em;
     flex-wrap: wrap;
+    padding: 0px;
   }
   footer .about .contact {
     width: 100%;
@@ -1135,7 +1146,7 @@ footer .copyright p {
     padding: 0.5em;
   }
 }
-@media all and (min-width: 568px) and (max-width: 1476px) {
+@media all and (min-width: 568px) and (max-width: 1439px) {
   .container .header .icon__menu {
     margin-top: 3%;
   }
@@ -1253,7 +1264,7 @@ footer .copyright p {
     font-size: 14px;
   }
 }
-@media all and (min-width: 800px) and (max-width: 1476px) {
+@media all and (min-width: 800px) and (max-width: 1439px) {
   .container .header__logo {
     width: 20%;
     margin-top: 0.5%;
@@ -1374,6 +1385,9 @@ footer .copyright p {
   footer .social__icon {
     font-size: 10px;
   }
+  footer .line-footer {
+    margin-top: 2em;
+  }
   footer .about {
     margin-top: 2em;
   }
@@ -1387,7 +1401,7 @@ footer .copyright p {
     font-size: 10px;
   }
 }
-@media all and (min-width: 1024px) and (max-width: 1476px) {
+@media all and (min-width: 1024px) and (max-width: 1439px) {
   .row{
     width: 90%;
     margin: 0px auto;
@@ -1534,7 +1548,7 @@ footer .copyright p {
   }
 
 }
-@media all and (min-width: 1330px) and (max-width: 1476px) {
+@media all and (min-width: 1330px) and (max-width: 1439px) {
   .row{
     width: 80%;
     margin: 0px auto;
@@ -1637,8 +1651,10 @@ footer .copyright p {
     line-height: 2.9em;
   }
 }
-@media all and (min-width: 1471px) and (max-width: 1600px) {
+@media all and (min-width: 1440px) and (max-width: 1600px) {
   .banner__text {
-    margin-left: 8.7em;
+    margin-left: 8.2em;
+    left: 0;
+    top: 12.5em;
   }
 }
