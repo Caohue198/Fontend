@@ -695,9 +695,11 @@ footer .copyright p {
   .container .header .icon__menu {
     display: block;
     font-size: 14px;
-    margin-top: 3.5%;
-    padding: 0.5em;
+    margin-top: 13px;
+    padding: 5px;
     color: #ffffff;
+    position: absolute;
+    right: 10px;
   }
   .container .header__menu {
     display: none;
@@ -776,7 +778,9 @@ footer .copyright p {
     width: auto;
   }
   .container .header__icon {
-    margin-left: 37%;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
   }
   .container .header__icon__search {
     margin-left: 0em;
@@ -1016,7 +1020,7 @@ footer .copyright p {
   .support-service .support__imgpeo img {
     max-width: 100%;
     width: auto;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 5%;
   }
   .client strong {
@@ -1149,13 +1153,14 @@ footer .copyright p {
 }
 @media all and (min-width: 568px) and (max-width: 1439px) {
   .container .header .icon__menu {
-    margin-top: 3%;
+    margin-top: 24px;
   }
   .container .header__menu ul li a {
     font-size: 14px;
   }
-  .container .header__icon {
-    margin-top: 1%;
+
+  .container .header__icon a i{
+    font-size: 14px;
   }
   .banner__text__logo {
     font-size: 30px;
@@ -1417,7 +1422,7 @@ footer .copyright p {
   }
   .container .header__icon {
     margin-left: 1%;
-    margin-top: 1.5%;
+    margin-top: 7px;
   }
   .container .header__menu ul li {
     margin-right: 1.65em;
@@ -1654,7 +1659,7 @@ footer .copyright p {
 }
 @media all and (min-width: 1440px) and (max-width: 1600px) {
   .banner__text {
-    margin-left: 8.2em;
+    margin-left: 190px;
     left: 0;
     top: 12.5em;
   }
